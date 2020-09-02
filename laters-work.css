@@ -1,0 +1,99 @@
+.latest-works-container{
+    max-width: 1260px;
+    width: 100%;
+    margin: 25px auto;
+}
+.latest-works-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latest-work-btn{
+    border: 1px solid #00897b;
+    margin-left: 10px;
+    padding: 5px;
+}
+.latest-work-btn p {
+    font-size: 20px;
+    color: #212121;
+    font-family: "Open Sans";
+    margin: 0;
+}
+.latest-works-buttons{
+    padding: 50px 0;
+}
+.latest-work-btn:hover {
+    background-color: #00897b;
+}
+.latest-work-btn:hover p{
+    color: white;
+}
+.latest-work-img{
+    background: url(img/latest-work/Rectangle\ 11.svg) no-repeat;
+    margin-top: 20px;
+    width: 30%;
+    position: relative;
+
+}
+.img-title{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    margin: 0;
+}
+.img-sub-title{
+    margin: 0;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+.img-desc{
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+
+.latest-work-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.latest-works-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.latest-works-item-btn{
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    background-color: #00897b;
+    margin: 50px auto;
+    padding: 10px 0;
+}
+.latest-works-item-btn p{
+    margin: 0;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+@media screen and (max-width: 768px){
+
+    .latest-work-btn p{
+        font-size: 10px;
+    }
+    .img-title{
+        font-size: 12px;
+    }
+    .img-sub-title{
+        font-size: 8px;
+    }
+    .latest-works-item{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .latest-work-img{
+        width: 45%;
+    }
+}

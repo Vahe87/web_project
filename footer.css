@@ -1,0 +1,9 @@
+.footer-container p{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #212121;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: center;
+}

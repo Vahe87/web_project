@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+}
+.menu input, .menu label{
+    display: none;
+}
+.header-top-bar {
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo a{
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 22px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.menu-links ul {
+    list-style-type: none;
+    display: flex;
+}
+.link{
+    margin-left: 25px;
+}
+
+.menu-links a {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+}
+.home{
+    position: relative;
+    background: url(img/Rectangle\ 1-svg.svg);
+}
+.home-container{
+    background: url(img/pexels-photo-356056.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+}
+.home-sub-title{
+    font-size: 60px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+.home-sub-desc{
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    margin-top: 25px;
+
+}
+.home-btn{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-btn-services{
+    border: 1px solid #ffffff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: center;
+}
+.home-btn-now{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: center;
+    background-color: #00897b;
+    border: 1px solid #00897b;
+    margin-left: 20px;
+}
+.home-btn p{
+    margin: 0;
+    padding: 10px 5px;
+}
+.down{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.home-drow-bar{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    font-size: 25px;
+
+}
+@media screen and (max-width: 768px){
+    .home-sub-title{
+        font-size: 30px;
+    }
+    .home-sub-desc{
+        font-size: 15px;
+    }
+    .home-container{
+        padding: 100px 0;
+    }
+    .home-drow-bar{
+        bottom: 20px;
+    }
+
+    /* menu*/
+    .header-logo{
+        padding: 20px 0;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+
+    .menu {
+        text-align: end;
+        display: block;
+    }
+
+    .menu input,
+    .menu label,
+    .menu-link {
+        display: block;
+    }
+
+
+    .menu-links {
+        position: absolute;
+        right: 1px;
+        top: 50px;
+    }
+
+
+    .link {
+        height: 100%;
+        text-align: start;
+        padding: 10px 0;
+    }
+
+    .menu-links ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        color: #192c3b;
+        cursor: pointer;
+        display: block;
+        font-size: 18px;
+        padding: 5px 9px;
+        transition: all .15s;
+
+    }
+
+    .link a {
+        text-decoration: none;
+        font-size: 25px;
+        border-bottom: 2px solid #888f94;
+        color: white;
+    }
+
+    .link {
+        text-align: start;
+    }
+
+
+    .menu-links {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .20s ease;
+        background-color: #140e0e;
+
+    }
+
+    input:checked~nav {
+        z-index: 2;
+        max-height: 400px;
+        height: 100%;
+        width: 40%;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .menu-links ul {
+        list-style-type: none;
+        align-items: flex-end;
+        margin-right: 20px;
+
+    }
+
+}

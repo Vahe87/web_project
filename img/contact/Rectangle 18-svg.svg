@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1375 1220" width="1375" height="1220">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #212121 } 
+	</style>
+	<g id="contact area">
+		<g id="main bg">
+			<path id="Rectangle 18" class="shp0" d="M-10 -12L1392 -12L1392 1242L-10 1242L-10 -12Z" />
+		</g>
+	</g>
+</svg>
